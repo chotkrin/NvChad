@@ -20,7 +20,6 @@ map(mode, "<LEADER><LEFT>", "<C-w>h", { desc = "Move to left window", noremap = 
 map(mode, "<LEADER><DOWN>", "<C-w>j", { desc = "Move to below window", noremap = true })
 map(mode, "<LEADER><UP>", "<C-w>k", { desc = "Move to upper window", noremap = true })
 
-map(mode, "tp", ":noh<CR>", { desc = "Clear search highlight", noremap = true })
 map(mode, "<LEADER>fr", ":lua require'telescope.builtin'.lsp_document_symbols{}<CR>", { desc = "Document symbols", noremap = true })
 
 map(mode, "==", "$", { desc = "End of line", noremap = true })
